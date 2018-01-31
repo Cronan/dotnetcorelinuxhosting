@@ -22,7 +22,7 @@ git clone <path_to_repo>
 cd <repo_folder>/src
 ```
 
-Modify the `clrFilesPath` variable in pynetinit.cpp as required, to point to your installed dotnet distribution.
+Modify the *clrFilesPath* variable in [pynetinit.cpp](./src/pynetinit.cpp) as required, to point to your installed dotnet distribution.
 
 Build the .NET .dll
 
