@@ -19,8 +19,10 @@ Clone the repository
 
 ```
 git clone <path_to_repo>
-cd <repo_folder>
+cd <repo_folder>/src
 ```
+
+Modify the `clrFilesPath` variable in pynetinit.cpp as required, to point to your installed dotnet distribution.
 
 Build the .NET .dll
 
@@ -45,9 +47,9 @@ python
 
 ## Authors
 
-* **Ivan Cronyn** - *Initial work* - [Cronan](https://github.com/Cronan)
+* **Ivan Cronyn** - *Initial work* - [Cronan on GitHub](https://github.com/Cronan)
 
 ## Acknowledgments
 
-* Thanks to [Yi Zhan](https://github.com/yizhang82) for his article on (Embedding CoreCLR in your C/C++ application)[http://yizhang82.me/hosting-coreclr]
+* Thanks to [Yi Zhan](https://github.com/yizhang82) for his article on [Embedding CoreCLR in your C/C++ application](http://yizhang82.me/hosting-coreclr)
 * Thanks to the [Python for .Net](https://github.com/pythonnet/pythonnet) team
